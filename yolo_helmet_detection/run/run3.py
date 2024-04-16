@@ -18,7 +18,7 @@ cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
 cap = cv2.VideoCapture('000.mp4')
 
-my_file = open("coco1.txt", "r")
+my_file = open("classes.txt", "r")
 data = my_file.read()
 class_list = data.split("\n")
 
